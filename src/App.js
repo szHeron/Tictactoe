@@ -6,7 +6,7 @@ function App() {
   const [turn, setTurn] = useState('X');
   const [winner, setWinner] = useState(null);
 
-  function handleClick(pos){
+  function HandleClick(pos){
     if(matriz.lastIndexOf < 1)
       setWinner("Empate");
     
